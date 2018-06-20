@@ -21,9 +21,9 @@
           "Sunday": "12:00 pm - 4:00 pm, 5:30 pm - 11:00 pm"
         },
         "createdAt": 1504095563444,
-        "updatedAt": "2017-09-14T14:01:27.653Z",
+        "updatedAt": "2018-06-20T13:02:23.561Z",
         "id": 1,
-        "is_favorite": false
+        "is_favorite": "true"
       },
       {
         "name": "Emily",
@@ -45,8 +45,8 @@
           "Sunday": "12:00 pm - 3:00 pm, 5:00 pm - 11:00 pm"
         },
         "createdAt": 1504095568414,
-        "updatedAt": "2017-09-14T14:05:54.800Z",
-        "is_favorite": false,
+        "updatedAt": "2018-06-20T13:03:11.310Z",
+        "is_favorite": "true",
         "id": 2
       },
       {
@@ -69,8 +69,9 @@
           "Sunday": "11:30 am - 2:00 am"
         },
         "createdAt": 1504095571434,
-        "updatedAt": 1504095571434,
-        "id": 3
+        "updatedAt": "2018-06-20T12:26:50.597Z",
+        "id": 3,
+        "is_favorite": "false"
       },
       {
         "name": "Katz's Delicatessen",
@@ -92,8 +93,8 @@
           "Sunday": "Sat - 10:30 pm"
         },
         "createdAt": 1504095567091,
-        "updatedAt": 1504095567091,
-        "is_favorite": false,
+        "updatedAt": "2018-06-20T12:28:04.359Z",
+        "is_favorite": "false",
         "id": 4
       },
       {
@@ -188,8 +189,8 @@
           "Sunday": "10:00 am - 3:00 pm, 5:30 pm - 11:00 pm"
         },
         "createdAt": 1504095567091,
-        "updatedAt": 1504095567091,
-        "is_favorite": false,
+        "updatedAt": "2018-06-19T14:43:55.354Z",
+        "is_favorite": "false",
         "id": 8
       },
       {
@@ -510,6 +511,24 @@
         "updatedAt": 1504095567183,
         "rating": 4,
         "comments": "For a Michelin star restaurant, it's fairly priced and the food is fairly good. Started with a strawberry margarita which was good in flavor but not much alcohol. Had the chicken enchiladas with salsa verde and it was really good. Great balance in flavor and a good portion. Extra tasty with their hot sauces. My wife had the lamb but it was a bit too salty for our taste. Although, it was cooked very well and fell off the bone. The highlight of the night was the tres leches cake. Probably the best I've ever had to be honest. Not too sweet and very milky. Overall, one of my top 3 favorite Mexican in NY."
+      },
+      {
+        "restaurant_id": 2,
+        "name": "Boris",
+        "rating": 3,
+        "comments": "test",
+        "createdAt": "2018-06-20T13:03:31.729Z",
+        "updatedAt": "2018-06-20T13:03:31.729Z",
+        "id": 31
+      },
+      {
+        "restaurant_id": 2,
+        "name": "Boris-1",
+        "rating": 3,
+        "comments": "3333",
+        "createdAt": "2018-06-20T13:04:07.146Z",
+        "updatedAt": "2018-06-20T13:04:07.146Z",
+        "id": 32
       }
     ]
   },
@@ -565,7 +584,7 @@
       "id": 10
     },
     "reviews": {
-      "id": 30
+      "id": 32
     }
   }
 }

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name=viewport content="width=device-width, initial-scale=1" charset="utf-8" />
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" sizes="24x24 36x36 48x48 72x72 88x88 96x96 144x144 192x192 256x256 300x300 384x384 512x512 620x300 1240x600"
+    type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="72x72" href="icons/favicon-72x72.png">
+  <link rel="icon" type="image/png" sizes="70x70" href="icons/favicon-70x70.png">
+  <link rel="icon" type="image/png" sizes="144x144" href="icons/favicon-144x144.png">
+  <link rel="icon" type="image/png" sizes="150x150" href="icons/favicon-150x150.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/favicon-192x192.png">
+  <link rel="icon" type="image/png" sizes="196x196" href="icons/favicon-196x196.png">
+  <link rel="icon" type="image/png" sizes="310x150" href="icons/favicon-310x150.png">
+  <link rel="icon" type="image/png" sizes="310x310" href="icons/favicon-310x310.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="icons/favicon-512x512.png">
+  <meta name="theme-color" content="#2196F3" />
+  <meta name="Description" content="Restaurant reviews">
+  
+  <!-- inject-css dist/css/all.css -->
+
+  <title>Restaurant Info</title>
+</head>
+
+<body class="inside">
+  <!-- Beginning header -->
+  <header>
+    <!-- Beginning nav -->
+    <nav aria-label="Breadcrumb menu">
+      <h1>
+        <a href="/" tabindex="1">Restaurant Reviews</a>
+      </h1>
+
+      <!-- Beginning breadcrumb -->
+      <ul id="breadcrumb">
+        <li>
+          <a href="/" tabindex="2">Home</a>
+        </li>
+      </ul>
+      <!-- End breadcrumb -->
+    </nav>
+    <!-- End nav -->
+  </header>
+  <!-- End header -->
+
+  <!-- Beginning main -->
+  <main id="maincontent">
+    <section id="top-container">
+      <!-- Beginning map -->
+      <section id="map-container">
+        <div id="map" aria-label="interactive map" role="application"></div>
+      </section>
+      <!-- End map -->
+      <!-- Beginning restaurant -->
+      <section id="restaurant-container">
+        <div id="restaurant-name-container">
+          <h2 id="restaurant-name" style="width:100%" tabindex="4"></h2>
+          <svg version="1.1"  viewBox="0 0 60 60" width="30" height="30" class="star" onclick="favoriteRestaurant();" role="button" aria-label="favorite">
+              <polygon id="star" style="fill:#EFCE4A;stroke:black" points="26.934,1.318 35.256,18.182 53.867,20.887 40.4,34.013 43.579,52.549 26.934,43.798 
+              10.288,52.549 13.467,34.013 0,20.887 18.611,18.182 "></polygon>
+             
+            </svg>
+        </div>
+        <picture id="restaurant-img" tabindex="5"></picture>
+        <p id="restaurant-cuisine" tabindex="6"></p>
+        <p id="restaurant-address" tabindex="7"></p>
+        <table id="restaurant-hours" tabindex="8"></table>
+      </section>
+      <!-- end restaurant -->
+    </section>
+    <!-- Beginning reviews -->
+    <section id="reviews-container">
+      <ul id="reviews-list"></ul>
+    </section>
+    <!-- End reviews -->
+  </main>
+  <!-- End main -->
+
+  <!-- Beginning footer -->
+
+  <footer id="footer" class="white">
+    Copyright (c) 2018
+    <a href="/">
+      <strong class="white">Restaurant Reviews</strong>
+    </a> All Rights Reserved.
+    <div class="white">Icons made by
+      <a rel="noopener" class="white" href="https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev">Nikita Golubev</a> from
+      <a rel="noopener" class="white" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by
+      <a rel="noopener" class="white" href="http://creativecommons.org/licenses/by/3.0/"
+        title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+    </div>
+  </footer>
+  <!-- End footer -->
+
+
+</body>
+<!-- Beginning scripts -->
+<!-- Normalize.css for better cross-browser consistency -->
+<link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+<script type="text/javascript" charset="utf-8" src="js/restaurant.js"></script>
+<!-- End scripts -->
+
+</html>
